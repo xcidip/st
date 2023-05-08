@@ -2,7 +2,7 @@ st is a simple terminal implementation for X.
 
 # **Preview**
 <p align="center">
-    <img src="https://github.com/motolla/st/blob/main/preview.png">
+    <img src="">
 </p>
 
 
@@ -23,17 +23,15 @@ Shift + Page_Down | Scroll Down
 ```
 
 # Requirements
-+ Void
++ Arch
 ```
-xbps-install pkgconf pkgconf-devel libXft-devel libX11-devel libXinerama-devel
+yay -S libxft libxinerama ttf-jetbrains-mono-nerd
 ```
-+ Optional (fallback is using the default monospace)
-[M PLUS FONT](https://github.com/coz-m/MPLUS_FONTS)
 
 # Install
 **Clone repo**
 ```
-git clone https://github.com/gillgrite/st.git
+git clone https://github.com/xcidip/st.git
 ```
 **Build & Install**
 
